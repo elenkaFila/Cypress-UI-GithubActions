@@ -1,0 +1,6 @@
+{
+    "input_username": "#username",
+    "input_password":"#password",
+    "button_submit":"button",
+    "alert":"#flash"
+}
