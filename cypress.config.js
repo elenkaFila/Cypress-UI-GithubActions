@@ -8,5 +8,6 @@ module.exports = defineConfig({
     viewportHeight: 1080,
     viewportWidth: 1920,
     baseUrl:"https://the-internet.herokuapp.com"
-  },
+  },  
+  video: true
 });
