@@ -21,7 +21,7 @@ jobs:
 
       - name: Upload video 
         uses: actions/upload-artifact@v4
-        if: always()
+        if: failure()
         with:
           name: cypress-videos
           path: cypress/videos
