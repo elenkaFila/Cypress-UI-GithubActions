@@ -26,7 +26,7 @@ describe('Authorization on the-internet', () => {
       cy.get(login.input_password).type(data.password);  
       //Нажимаем кнопку submit
       cy.get(login.button_submit).click();
-      cy.get(login.alert).contains('Your username is invalid!')
+      cy.get(login.alert).contains('Your username is invalidff!')
       cy.url().should('eq', Cypress.config().baseUrl + '/login');
 
   });
